@@ -7,3 +7,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* Hero */
+.hero-background {
+  background-image: url("./assets/background-2.avif");
+  background-size: cover;
+  background-position: center center;
+}
