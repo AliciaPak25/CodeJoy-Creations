@@ -1,17 +1,15 @@
-import Hero from "../components/Hero";
+import FeaturedCompanies from "../components/Home/FeaturedCompanies";
+import Hero from "../components/Home/Hero";
+import InnovativeSolutions from "../components/Home/InnovativeSolutions";
+import ServicesOverview from "../components/Home/ServicesOverview";
 
 const Home = () => {
   return (
     <>
       <Hero />
-      <div>
-        <p>hello</p>
-        <p>hello</p>
-
-        <p>hello</p>
-        <p>hello</p>
-        <p>hello</p>
-      </div>
+      <FeaturedCompanies />
+      <InnovativeSolutions />
+      <ServicesOverview />
     </>
   );
 };
