@@ -7,6 +7,7 @@ import Services from "./pages/Services";
 import JoinTheTeam from "./pages/JoinTheTeam";
 import Contact from "./pages/Contact";
 import ErrorPage from "./pages/ErrorPage";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<ErrorPage />} />
           </Routes>
+          <Footer />
         </Router>
       </div>
     </>

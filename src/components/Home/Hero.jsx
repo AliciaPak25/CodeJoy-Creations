@@ -11,7 +11,7 @@ const Hero = () => {
           Transforming Dreams into Code
         </p>
         <p className="font-light text-2xl mt-4 text-white">
-          Beyond code, we&apos;re a community unlocking possibilities together
+          Beyond code, we&apos;re a community unlocking possibilities together.
         </p>
         <button className="px-5 py-2 inline-block bg-[#86d2ff] text-black hover:bg-[#e483fc] transition-colors mt-10 ">
           Get started
