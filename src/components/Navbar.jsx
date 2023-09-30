@@ -30,7 +30,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="bg-transparent fixed top-0 z-[20] mx-auto flex w-full items-center justify-between p-8 flex-wrap">
+    <div className="bg-transparent absolute top-0 z-[20] mx-auto flex w-full items-center justify-between p-8 flex-wrap">
       <div className="flex w-1/3 justify-start items-center space-x-2">
         <Logo className="" />
         <h2 className="text-white">CodeJoy Creations</h2>

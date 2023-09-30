@@ -1,5 +1,15 @@
+import HeroAboutUs from "../components/AboutUs/HeroAboutUs";
+import OurStory from "../components/AboutUs/OurStory";
+import TheJoyOfInnovation from "../components/AboutUs/TheJoyOfInnovation";
+
 const AboutUs = () => {
-  return <h1>THIS IS THE ABOUT US PAGE</h1>;
+  return (
+    <>
+      <HeroAboutUs />
+      <OurStory />
+      <TheJoyOfInnovation />
+    </>
+  );
 };
 
 export default AboutUs;

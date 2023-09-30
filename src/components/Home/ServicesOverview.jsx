@@ -7,7 +7,7 @@ import CustomButton from "../CustomButton";
 const ServicesOverview = () => {
   return (
     <section>
-      <section className="flex md:flex-row flex-col-reverse sm:py-16 py-6">
+      <section className="flex md:flex-row flex-col-reverse /* sm:py-16 py-6 */">
         <div className="flex-1 flex justify-center items-center md:mr-10 mr-0 md:mt-0 mt-10 relative">
           <img src={team} alt="" className="w-[100%] h-[100%] relative z-[5]" />
         </div>
@@ -38,7 +38,7 @@ const ServicesOverview = () => {
         </div>
       </section>
 
-      <section className="flex md:flex-row flex-col sm:py-16 py-6">
+      <section className="flex md:flex-row flex-col sm:pt-16 md:py-6">
         <div className="flex-1 flex justify-center items-start flex-col">
           <h2 className="font-arial font-semibold xs:text-[38px] text-[30px] xs:leading-[76.8px] leading-[66.8px] w-full">
             Experience the Joy of Code
