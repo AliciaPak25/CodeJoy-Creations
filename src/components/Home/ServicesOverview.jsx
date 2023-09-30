@@ -33,6 +33,7 @@ const ServicesOverview = () => {
               /* img={arrow}
               alt="arrow"
               imgStyles="w-[128px] h-[42px] object-contain mr-5 cursor-pointer" */
+              /* Go to services */
             />
           </div>
         </div>
@@ -53,7 +54,8 @@ const ServicesOverview = () => {
           <CustomButton
             styles="py-4 px-6 bg-blue-gradient font-arial font-medium text-[18px] text-white outline-none mt-10 rounded-[10px]"
             text="Get in Touch"
-          />
+          />{" "}
+          {/* Go to contact */}
         </div>
 
         <div className="flex-1 flex justify-center items-center md:ml-10 ml-0 md:mt-0 mt-10 relative">

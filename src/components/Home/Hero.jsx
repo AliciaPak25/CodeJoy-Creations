@@ -15,7 +15,8 @@ const Hero = () => {
         </p>
         <button className="px-5 py-2 inline-block bg-[#86d2ff] text-black hover:bg-[#e483fc] transition-colors mt-10 ">
           Get started
-        </button>
+        </button>{" "}
+        {/* Create modal */}
       </div>
     </div>
   );

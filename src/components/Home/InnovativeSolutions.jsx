@@ -70,7 +70,8 @@ const InnovativeSolutions = () => {
         <CustomButton
           styles="mt-10 py-4 px-6 bg-primary text-white font-arial font-medium text-[18px] outline-none"
           text="Our services"
-        />
+        />{" "}
+        {/* Go to services */}
       </div>
 
       <div className="flex flex-end justify-end items-center md:ml-10 ml-0 md:mt-0 mt-10 w-3/6 flex-wrap">
