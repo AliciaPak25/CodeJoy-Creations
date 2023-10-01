@@ -12,8 +12,8 @@ const TheJoyOfInnovation = () => {
           We live and breathe innovation. Whether it&apos;s designing
           user-friendly interfaces, developing cutting-edge applications, or
           creating immersive digital experiences, our joy lies in the thrill of
-          innovation. Each line of code is a brushstroke in the canvas of
-          digital creativity.
+          innovation. Each line of code is a single building block in the world
+          of digital creation.
         </p>
       </div>
       <video src={videoAboutUs} autoPlay loop muted className="w-1/2" />

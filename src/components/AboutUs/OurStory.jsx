@@ -17,7 +17,7 @@ const OurStory = () => {
         </p>
         <p className="font-arial font-normal text-[18px] text-justify mb-3">
           We&apos;ve always been a group of friends who shared a common passion:
-          coding. We were just ordinary developers for the rest od the world,
+          coding. We were just ordinary developers for the rest of the world,
           but we also were visionaries with a dream of shaping the digital world
           into something extraordinary.
         </p>

@@ -15,10 +15,18 @@
   background-position: center center;
 }
 
+/* Contact */
 .contact-background {
   background-image: url("./assets/images/contact-1.jpg");
   background-size: cover;
   background-position: center center;
+}
+
+/* Join the Team */
+.join-us-background {
+  background-image: url("./assets/images/join-us.jpg");
+  background-size: cover;
+  background-position: bottom;
 }
 
 .text-gradient {
@@ -56,5 +64,19 @@
     #7de7eb 29.82%,
     #5ce1e6 51.94%,
     #33bbcf 90.29%
+  );
+}
+
+.blue__gradient {
+  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+  filter: blur(123px);
+}
+
+.bg-black-gradient-2 {
+  background: linear-gradient(
+    -168.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
   );
 }

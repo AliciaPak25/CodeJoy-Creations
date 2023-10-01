@@ -50,9 +50,9 @@ const Contact = () => {
             <div className="flex flex-row items-center justify-start w-full">
               <input type="checkbox" />
               <p className="ml-3 text-[18px] font-normal text-[#737a7a]">
-                I agree to CodeJoy Creations{" "}
+                I agree to CodeJoy Creations
                 <Link className="text-[#dfded4]" to="#">
-                  privacy policy.
+                  disclaimer policy.
                 </Link>
               </p>
             </div>

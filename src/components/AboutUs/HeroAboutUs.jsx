@@ -1,4 +1,3 @@
-import React from "react";
 import heroAbout from "../../assets/images/hero-about.jpg";
 
 const HeroAboutUs = () => {
