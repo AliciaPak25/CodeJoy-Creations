@@ -16,7 +16,7 @@ const FeaturedCompanies = () => {
         {companies.map((company) => (
           <h4
             key={company.id}
-            className="font-arial font-semibold xs:text-[20px] text-[15px] xs:leading-[26px] leading-[21px] text-gradient uppercase ml-3 "
+            className="font-poppins font-semibold xs:text-[20px] text-[15px] xs:leading-[26px] leading-[21px] text-gradient uppercase ml-3 "
           >
             {company.name}
           </h4>

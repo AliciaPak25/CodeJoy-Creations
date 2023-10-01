@@ -7,7 +7,7 @@ const CVUpload = () => {
         <h2 className="font-poppins font-semibold xs:text-[38px] text-[30px] text-white w-full mb-4">
           Join Our Team - Apply Today
         </h2>
-        <p className="text-[#ffffffb2] mb-4 font-arial font-normal text-[18px] leading-[30.8px">
+        <p className="text-[#ffffffb2] mb-4 font-poppins font-normal text-[18px] leading-[30.8px">
           Interested in joining our team? We'd love to learn more about you and
           your skills. Please send us your CV, and we'll get in touch with you.
         </p>
@@ -18,7 +18,7 @@ const CVUpload = () => {
           />
           <CustomButton
             text="Send"
-            styles="py-4 px-6 bg-blue-500 font-arial font-medium text-[18px] text-white outline-none mt-10 rounded-[10px] hover:bg-blue-600"
+            styles="py-4 px-6 bg-blue-500 font-poppins font-medium text-[18px] text-white outline-none mt-10 rounded-[10px] hover:bg-blue-600"
           />
         </div>
       </div>

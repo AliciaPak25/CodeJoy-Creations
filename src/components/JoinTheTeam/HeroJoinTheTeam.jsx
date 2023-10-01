@@ -5,7 +5,7 @@ const HeroJoinTheTeam = () => {
   return (
     /*     <div className="h-screen bg-[#171717] w-full flex justify-evenly items-center">
       <div className="max-w-[570px] flex flex-col flex-start mt-10">
-        <h2 className="font-arial font-semibold xs:text-[38px] text-[30px] text-white xs:leading-[76.8px] leading-[66.8px] w-full">
+        <h2 className="font-poppins font-semibold xs:text-[38px] text-[30px] text-white xs:leading-[76.8px] leading-[66.8px] w-full">
           Join Our Digital Dream Team
         </h2>
         <p className="font-poppins font-normal text-[18px] leading-[25.8px] text-white max-w-[470px] mt-5">
@@ -16,7 +16,7 @@ const HeroJoinTheTeam = () => {
         </p>
         <CustomButton
           text="Join the Team"
-          styles="mt-10 py-4 px-6 font-arial font-medium text-[18px] text-white bg-blue-gradient rounded-[10px] outline-none"
+          styles="mt-10 py-4 px-6 font-poppins font-medium text-[18px] text-white bg-blue-gradient rounded-[10px] outline-none"
         />
       </div>
 
@@ -28,7 +28,7 @@ const HeroJoinTheTeam = () => {
     </div> */
     <section className="flex md:flex-row flex-col sm:py-16 py-6 md:px-16 bg-[#171717] md:h-screen w-full items-center">
       <div className="flex-1 flex justify-center items-start flex-col ml-10">
-        <h2 className="font-arial font-semibold xs:text-[38px] text-[30px] text-white xs:leading-[76.8px] leading-[66.8px] w-full">
+        <h2 className="font-poppins font-semibold xs:text-[38px] text-[30px] text-white xs:leading-[76.8px] leading-[66.8px] w-full">
           Join Our Digital Dream Team
         </h2>
         <p className="font-poppins font-normal text-[18px] leading-[25.8px] text-white max-w-[470px] mt-5">
@@ -39,7 +39,7 @@ const HeroJoinTheTeam = () => {
         </p>
         <CustomButton
           text="Join the Team"
-          styles="mt-10 py-4 px-6 font-arial font-medium text-[18px] text-white bg-blue-gradient rounded-[10px] outline-none"
+          styles="mt-10 py-4 px-6 font-poppins font-medium text-[18px] text-white bg-blue-gradient rounded-[10px] outline-none"
         />
       </div>
       <div className="flex-1 flex justify-center items-center md:ml-10 ml-0 md:mt-0 mt-10">

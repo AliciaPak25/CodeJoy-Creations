@@ -21,7 +21,7 @@ const Contact = () => {
             <p className="font-bold text-white text-[18px]">
               1989 Cornelia Street. Nashville, Tennessee.
             </p>
-            <p className="uppercase text-[#F2F2F2] font-arial text-[12px] font-[300] mt-20">
+            <p className="uppercase text-[#F2F2F2] font-poppins text-[12px] font-[300] mt-20">
               Monday to Friday 9:00 am - 6:00 PM.
             </p>
           </div>
@@ -60,7 +60,7 @@ const Contact = () => {
             <CustomButton
               type="submit"
               text="Send"
-              styles="h-10 border-2 border-primary py-4 px-9 flex items-center justify-center bg-transparent text-white font-arial text-[15px] font-medium mt-5 rounded-3xl"
+              styles="h-10 border-2 border-primary py-4 px-9 flex items-center justify-center bg-transparent text-white font-poppins text-[15px] font-medium mt-5 rounded-3xl"
             />
           </form>
         </div>

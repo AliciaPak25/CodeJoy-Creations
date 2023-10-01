@@ -36,11 +36,11 @@ const Testimonials = () => {
       <div className="absolute z-[0] w-[60&] h-[60&] -right-[50%] rounded-full blue__gradient" />
 
       <div className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]">
-        <h2 className="font-arial font-semibold xs:text-[38px] text-[30px xs:leading-[76.8px] leading-[66.8px] w-full text-white">
+        <h2 className="font-poppins font-semibold xs:text-[38px] text-[30px xs:leading-[76.8px] leading-[66.8px] w-full text-white">
           What Our Team Says
         </h2>
         <div className="w-full md:mt-0 mt-6">
-          <p className="font-arial font-normal text-[18px] leading-[25.8px] text-left max-w-[450px] text-white">
+          <p className="font-poppins font-normal text-[18px] leading-[25.8px] text-left max-w-[450px] text-white">
             At CodeJoy Creations, we&apos;re not just a software company;
             we&apos;re a community of passionate individuals who share a common
             dream — to innovate, create, and bring digital excellence to life.

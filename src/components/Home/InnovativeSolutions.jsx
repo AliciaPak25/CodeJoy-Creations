@@ -5,7 +5,7 @@ import web from "../../assets/icons/device-desktop.svg";
 import mobile from "../../assets/icons/device-mobile-code.svg";
 import ai from "../../assets/icons/robot-face.svg";
 
-const services = [
+export const services = [
   {
     id: "1",
     icon: design,
@@ -44,10 +44,10 @@ const ServicesCard = ({ icon, service, description, index }) => (
       <img src={icon} alt="icon" className="w-[50%] h-[50%] object-contain" />
     </div>
     <div className="flex-1 flex flex-col ml-3 mt-3">
-      <h4 className="font-arial font-semibold text-white text-[18px] leading-[23px] mb-1">
+      <h4 className="font-poppins font-semibold text-white text-[18px] leading-[23px] mb-1">
         {service}
       </h4>
-      <p className="font-arial font-normal text-gray-300 text-[16px] leading-[24px] mb-1 mt-2">
+      <p className="font-poppins font-normal text-gray-300 text-[16px] leading-[24px] mb-1 mt-2">
         {description}
       </p>
     </div>
@@ -58,17 +58,17 @@ const InnovativeSolutions = () => {
   return (
     <section className="flex flex-row flex-wrap bg-[#171717] items-center justify-center py-6 sm:py-16">
       <div className="flex justify-center items-start flex-col">
-        <h2 className="text-white font-arial font-semibold xs:text-[48px] text-[40px] xs:leading-[76.8px] leading-[66.8px] w-full">
+        <h2 className="text-white font-poppins font-semibold xs:text-[48px] text-[40px] xs:leading-[76.8px] leading-[66.8px] w-full">
           Creating <br /> Innovative
           <br /> Solutions
         </h2>
-        <p className="font-arial font-normal text-white text-[18px] leading-[30.8px] max-w-[470px] mt-5">
+        <p className="font-poppins font-normal text-white text-[18px] leading-[30.8px] max-w-[470px] mt-5">
           Our commitment to innovation drives us to stay at the forefront of
           technology trends. We&apos;re always ready to tackle the next big
           challenge.
         </p>
         <CustomButton
-          styles="mt-10 py-4 px-6 bg-primary text-white font-arial font-medium text-[18px] outline-none"
+          styles="mt-10 py-4 px-6 bg-primary text-white font-poppins font-medium text-[18px] outline-none"
           text="Our services"
         />{" "}
         {/* Go to services */}

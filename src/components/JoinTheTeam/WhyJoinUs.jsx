@@ -54,10 +54,10 @@ const WhyJoinUs = () => {
                     <div className="bg-secondary w-9 h-9 mb-[42px] flex justify-center items-center" />
                   </div>
                   <div className="max-w-[476px]">
-                    <h4 className="text-[20px] font-arial font-semibold mb-6">
+                    <h4 className="text-[20px] font-poppins font-semibold mb-6">
                       {reason.title}
                     </h4>
-                    <p className="font-arial leading-tight">
+                    <p className="font-poppins leading-tight">
                       {reason.description}
                     </p>
                   </div>

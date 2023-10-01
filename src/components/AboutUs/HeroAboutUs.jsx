@@ -4,7 +4,7 @@ const HeroAboutUs = () => {
   return (
     <div className="h-screen bg-[#171717] w-full flex justify-evenly items-center">
       <div className="max-w-[570px] flex flex-col flex-start mt-10">
-        <h2 className="text-[#fff] font-bold font-arial text-[33px] leading-[43px]">
+        <h2 className="text-[#fff] font-bold font-poppins text-[33px] leading-[43px]">
           About CodeJoy Creations
         </h2>
         <p className="font-light text-[18px] text-[#9f9f9f] mt-[30px] mr-[29px]">

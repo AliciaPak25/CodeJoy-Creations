@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,6 +8,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 /* Hero */
@@ -29,6 +32,7 @@
   background-position: bottom;
 }
 
+/* Gradients */
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
@@ -78,5 +82,15 @@
     #ffffff -278.56%,
     #6d6d6d -78.47%,
     #11101d 91.61%
+  );
+}
+
+.gradientHover {
+  background: linear-gradient(
+    92.23deg,
+    #406aff 21.43%,
+    #3bace2 50.63%,
+    #b935ee 100%,
+    #ff56f6 11742.04%
   );
 }

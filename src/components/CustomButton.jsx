@@ -1,5 +1,3 @@
-import React from "react";
-
 const CustomButton = ({ styles, text, img, alt, imgStyles }) => {
   return (
     <button type="button" className={`${styles}`}>

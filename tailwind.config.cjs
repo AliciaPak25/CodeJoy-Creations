@@ -4,11 +4,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#86d2ff",
-        secondary: "#e483fc",
-      },
-      fontFamily: {
-        arial: ["Arial", "sans-serif"],
+        primary: "#84d3ff",
+        secondary: "#e484fc",
+        grayText: "#9f9f9f",
+        backgroundApp: "#171717",
       },
     },
     screens: {
