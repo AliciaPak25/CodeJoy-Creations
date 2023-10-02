@@ -56,7 +56,7 @@ const ServicesOverview = () => {
             journey of innovation, transformation, and digital excellence
             together.
           </p>
-          <div className="w-[470px] flex md:justify-start justify-center">
+          <div className="sm:w-[470px] flex md:justify-start justify-center">
             <Link
               className="py-4 px-6 bg-blue-gradient mt-8 rounded-[80px] w-52 flex"
               to="/contact"
