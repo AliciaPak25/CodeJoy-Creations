@@ -8,6 +8,7 @@ export default {
         secondary: "#e484fc",
         grayText: "#9f9f9f",
         backgroundApp: "#171717",
+        buttonTexts: "#00040f",
       },
     },
     screens: {

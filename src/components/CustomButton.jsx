@@ -1,12 +1,9 @@
-const CustomButton = ({ styles, text, img, alt, imgStyles }) => {
+const CustomButton = ({ styles, text, action }) => {
   return (
-    <button type="button" className={`${styles}`}>
+    <button type="button" className={`${styles}`} onClick={action}>
       {text}
-      {img ? <img src={img} alt={alt} className={imgStyles} /> : <></>}
     </button>
   );
 };
 
 export default CustomButton;
-
-/* CustomButtons, CustomButtonWithImage */

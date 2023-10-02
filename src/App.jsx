@@ -8,12 +8,14 @@ import JoinTheTeam from "./pages/JoinTheTeam";
 import Contact from "./pages/Contact";
 import ErrorPage from "./pages/ErrorPage";
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <>
       <div className="w-full">
         <Router>
+          <ScrollToTop />
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />

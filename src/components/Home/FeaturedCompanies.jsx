@@ -10,7 +10,7 @@ const companies = [
 
 const FeaturedCompanies = () => {
   return (
-    <section className="flex justify-center items-center flex-col bg-[#171717]">
+    <section className="flex justify-center items-center flex-col bg-[#171717] pt-6 sm:pt-16">
       <h3 className="uppercase mt-1 mb-1 text-[#5a5a5a]">Featured in</h3>
       <div className="flex justify-center items-center flex-row flex-wrap m-3 sm:mb-20 mb-6">
         {companies.map((company) => (

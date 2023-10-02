@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import "../App.css";
 import Logo from "./Logo";
 import mail from "../assets/icons/mail.svg";
@@ -87,6 +87,7 @@ const NavLinks = ({ toggleNavbar }) => {
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const navigate = useNavigate();
 
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
@@ -105,17 +106,21 @@ const Navbar = () => {
     return classes;
   }
 
+  const handleClick = () => {
+    navigate("/");
+  };
+
   return (
     <div className="bg-transparent absolute top-0 z-[20] mx-auto flex w-full items-center justify-between md:p-6 flex-wrap padding-0">
-      <Link
-        className="flex w-1/3 justify-start items-center space-x-2 pl-2 pt-2 md:pl-0 md:pt-0"
-        to="/"
-      >
+      <div className="flex w-1/3 justify-start items-center space-x-2 pl-2 pt-2 md:pl-0 md:pt-0">
         <Logo />
-        <h2 className="text-white font-bold text-base sm:flex hidden">
+        <h2
+          className="text-white font-bold text-base sm:flex hidden cursor-pointer"
+          onClick={handleClick}
+        >
           CodeJoy Creations
         </h2>
-      </Link>
+      </div>
 
       <div className="flex w-1/3 justify-end">
         <div className="hidden w-full justify-between md:flex">

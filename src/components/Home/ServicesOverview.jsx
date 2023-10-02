@@ -1,8 +1,7 @@
-import React from "react";
+import { Link } from "react-router-dom";
 import team from "../../assets/images/team-6.jpg";
 import teamTwo from "../../assets/images/team.jpg";
 import arrow from "../../assets/icons/arrow-narrow-right.svg";
-import CustomButton from "../CustomButton";
 
 const ServicesOverview = () => {
   return (
@@ -16,32 +15,38 @@ const ServicesOverview = () => {
         <div className="absolute z-[0] -left-1/2 bottom-0 w-[50%] h-[50%] rounded-full pink__gradient" />
 
         <div className="flex-1 flex justify-center items-start flex-col">
-          <h2 className="font-poppins font-semibold xs:text-[38px] text-[30px] xs:leading-[76.8px] leading-[66.8px] w-full">
+          <h2 className="font-semibold xs:text-[35px] text-[30px] xs:leading-[46.8px] leading-[36.8px] w-full">
             Crafting Exceptional Apps
           </h2>
-          <p className="font-poppins font-normal text-[18px] leading-[20.8px] max-w-[470px] mt-5 text-justify">
+          <p className="font-normal text-[18px] leading-[20.8px] max-w-[470px] mt-5">
             At CodeJoy Creations, our approach to designing and developing apps
             is rooted in creativity, precision, and innovation. We take pride in
             turning your ideas into exceptional digital solutions that not only
             meet but exceed your expectations.
           </p>
 
-          <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
-            <CustomButton
-              styles="py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-white outline-none mt-10 rounded-[10px]"
-              text="Learn More"
-              /* img={arrow}
-              alt="arrow"
-              imgStyles="w-[128px] h-[42px] object-contain mr-5 cursor-pointer" */
-              /* Go to services */
-            />
+          <div className="flex flex-row flex-wrap sm:mt-8 mt-6">
+            <Link
+              className="py-4 px-6 bg-blue-gradient rounded-[80px] flex"
+              to="/services"
+            >
+              <p className="text-[18px]  text-buttonTexts font-medium outline-none">
+                Learn More
+              </p>
+              <img
+                src={arrow}
+                alt="arrow"
+                className="object-contain ml-4 cursor-pointer"
+              />
+            </Link>
+            {/* Later it can go to Our Portfolio (not created yet) */}
           </div>
         </div>
       </section>
 
       <section className="flex md:flex-row flex-col sm:pt-16 md:py-6">
-        <div className="flex-1 flex justify-center items-start flex-col">
-          <h2 className="font-poppins font-semibold xs:text-[38px] text-[30px] xs:leading-[76.8px] leading-[66.8px] w-full">
+        <div className="flex-1 flex justify-center items-end flex-col">
+          <h2 className="font-semibold xs:text-[35px] text-[30px] xs:leading-[46.8px] leading-[36.8px]">
             Experience the Joy of Code
           </h2>
           <p className="font-poppins font-normal text-[18px] leading-[20.8px] max-w-[470px] mt-5">
@@ -51,11 +56,19 @@ const ServicesOverview = () => {
             journey of innovation, transformation, and digital excellence
             together.
           </p>
-          <CustomButton
-            styles="py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-white outline-none mt-10 rounded-[10px]"
-            text="Get in Touch"
-          />{" "}
-          {/* Go to contact */}
+          <Link
+            className="py-4 px-6 bg-blue-gradient mt-8 rounded-[80px] flex"
+            to="/contact"
+          >
+            <p className="font-medium text-[18px] text-buttonTexts outline-none ">
+              Get in Touch
+            </p>
+            <img
+              src={arrow}
+              alt="arrow"
+              className="object-contain ml-4 cursor-pointer"
+            />
+          </Link>
         </div>
 
         <div className="flex-1 flex justify-center items-center md:ml-10 ml-0 md:mt-0 mt-10 relative">
