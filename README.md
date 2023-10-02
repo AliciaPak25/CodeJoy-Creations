@@ -11,7 +11,7 @@ CodeJoy Creations is a fictional web platform created to showcase a diverse set 
 # About Me:
 
 I'm Alicia Pak, an aspiring web developer dedicated to continuous learning and growth.
-Myy goal is to contribute my expertise to the dynamic tech industry and make a positive impact.
+My goal is to contribute my expertise to the dynamic tech industry and make a positive impact.
 
 I have developed CodeJoy Creations with React.js + Vite and TawilwindCSS.
 # React + Vite
