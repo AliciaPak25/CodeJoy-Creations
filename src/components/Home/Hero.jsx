@@ -21,6 +21,7 @@ const Hero = () => {
           Beyond code, we&apos;re a community unlocking possibilities together.
         </p>
         <CustomButton
+          theType="text"
           text="Get Started"
           styles="py-4 px-6 font-medium ss:text-[17px] text-[14px] text-white bg-transparent rounded-[80px] outline-none mt-10 border"
           action={handleClick}

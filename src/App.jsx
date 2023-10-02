@@ -9,6 +9,7 @@ import Contact from "./pages/Contact";
 import ErrorPage from "./pages/ErrorPage";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
+import Disclaimer from "./pages/Disclaimer";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route path="/services" element={<Services />} />
             <Route path="/join-the-team" element={<JoinTheTeam />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/disclaimer" element={<Disclaimer />} />
             <Route path="*" element={<ErrorPage />} />
           </Routes>
           <Footer />

@@ -31,6 +31,11 @@ const footerLinks = [
         name: "Contact",
         link: "/contact",
       },
+      {
+        id: "6",
+        name: "Disclaimer",
+        link: "/disclaimer",
+      },
     ],
   },
 ];
@@ -39,19 +44,19 @@ const Footer = () => {
   return (
     <section className="flex flex-col justify-center items-center py-6 bg-[#171717] w-full">
       <div className="flex justify-between items-center flex-row mb-8 w-full">
-        <div className="flex flex-col justify-start mr-10 sm:w-1/2">
+        <div className="flex flex-col justify-start mr-10 ss:w-1/3">
           <div className="flex items-center md:mx-10 sm:ml-5 ml-3">
             <Logo />
             <p className="text-white text-[20px] font-bold leading-[27px] ml-2">
               CodeJoy Creations
             </p>
           </div>
-          <p className="font-normal text-[18px] leading-[25px] mt-4 text-[#626262] md:mx-10 xs:flex hidden sm:ml-5">
+          <p className="font-normal text-[18px] leading-[25px] mt-4 text-[#626262] md:mx-10 ss:flex hidden sm:ml-5">
             We empower your digital dreams with a joyful touch of innovation.
           </p>
         </div>
 
-        <div className="md:mx-10 sm:mr-5">
+        <div className="md:mx-10 ss:mr-15">
           {footerLinks.map((footerLink) => (
             <div key={footerLink.links.id} className="mt-10">
               <h4 className="font-medium text-[18px] leading-[27px] text-white">

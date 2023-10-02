@@ -1,4 +1,4 @@
-import videoAboutUs from "../../assets/videos/video (2160p).mp4";
+import videoAboutUs from "../../assets/videos/video-about-us.mp4";
 
 const TheJoyOfInnovation = () => {
   return (
