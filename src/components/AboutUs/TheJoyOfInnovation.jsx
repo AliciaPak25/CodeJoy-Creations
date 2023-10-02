@@ -1,4 +1,5 @@
 import videoAboutUs from "../../assets/videos/video-about-us.mp4";
+import joy from "../../assets/images/joy.jpg";
 
 const TheJoyOfInnovation = () => {
   return (
@@ -20,7 +21,11 @@ const TheJoyOfInnovation = () => {
         autoPlay
         loop
         muted
-        className="md:w-1/2 ss:w-3/4 w-11/12 object-contain"
+        className="md:w-1/2 ss:w-3/4 w-11/12 object-contain md:flex hidden"
+      />
+      <img
+        src={joy}
+        className="md:w-1/2 ss:w-3/4 w-11/12 object-contain md:hidden flex"
       />
     </section>
   );
