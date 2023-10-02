@@ -14,7 +14,7 @@ import Disclaimer from "./pages/Disclaimer";
 function App() {
   return (
     <>
-      <div className="w-full">
+      <div className="w-full overflow-hidden">
         <Router>
           <ScrollToTop />
           <Navbar />

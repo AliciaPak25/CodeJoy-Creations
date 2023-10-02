@@ -32,15 +32,15 @@ const testimonials = [
 
 const Testimonials = () => {
   return (
-    <section className="sm:py-16 py-6 flex justify-center items-center flex-col relative bg-[#171717] w-full">
+    <section className="sm:py-16 py-6 flex justify-center items-center flex-col bg-[#171717] w-full">
       <div className="absolute z-[0] w-[60&] h-[60&] -right-[50%] rounded-full blue__gradient" />
 
-      <div className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]">
-        <h2 className="font-poppins font-semibold xs:text-[38px] text-[30px xs:leading-[76.8px] leading-[66.8px] w-full text-white">
+      <div className="w-full flex justify-center items-center md:flex-row flex-col sm:mb-16 mb-6 z-[1]">
+        <h2 className="font-poppins font-semibold xs:text-[38px] text-[28px] text-[30px xs:leading-[76.8px] leading-[66.8px] w-full text-white text-center">
           What Our Team Says
         </h2>
-        <div className="w-full md:mt-0 mt-6">
-          <p className="font-poppins font-normal text-[18px] leading-[25.8px] text-left max-w-[450px] text-white">
+        <div className="w-full md:mt-0 mt-6 hidden">
+          <p className="font-poppins font-normal xs:text-[18px] text-[16px] leading-[25.8px] text-left max-w-[450px] text-white">
             At CodeJoy Creations, we&apos;re not just a software company;
             we&apos;re a community of passionate individuals who share a common
             dream — to innovate, create, and bring digital excellence to life.
@@ -49,7 +49,7 @@ const Testimonials = () => {
         </div>
       </div>
 
-      <div className="flex flex-wrap sm:justify-start justify-center w-full relative z-[1]">
+      <div className="flex flex-wrap justify-center w-full z-[1]">
         {testimonials.map((card) => (
           <TestimonialsCard key={card.id} {...card} />
         ))}
